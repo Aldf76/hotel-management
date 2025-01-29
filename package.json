@@ -2,9 +2,11 @@
   "name": "hotel-management",
   "version": "1.0.0",
   "description": "Este projeto é uma aplicação de gestão hoteleira, desenvolvida em TypeScript, e dividida em vários módulos para representar os diferentes setores da empresa hoteleira. Cada módulo encapsula as funcionalidades específicas de um setor, seguindo princípios de polimorfismo, herança, interface e importação de módulos.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node dist/app.js"
   },
   "keywords": [],
   "author": "",
